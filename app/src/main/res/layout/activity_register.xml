@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/yellow"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTRATI"
+            android:textSize="50sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completa con i tuoi dati"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/redtnome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nome e Cognome"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/redtemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="E-mail"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textEmailAddress"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/redtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:id="@+id/redtpassword1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Ripeti Password"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/bregistrati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="60dp"
+            android:text="REGISTRATI"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/tv_go_to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:text="Hai giá un account?"
+
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

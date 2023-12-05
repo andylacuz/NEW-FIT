@@ -1,0 +1,66 @@
+<!-- activity_abbonamenti.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbbonamentiActivity">
+
+    <!-- Título "ABBONAMENTI" -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABBONAMENTI"
+        android:textSize="28sp"
+        android:textColor="#FFFF00"
+        android:background="@color/purple_700"
+        android:padding="26dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <!-- Botones -->
+    <Button
+        android:id="@+id/btnLezione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 1 LEZIONE"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="56dp"
+
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnSettimanale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTIMANALE"
+        android:layout_below="@id/btnLezione"
+        android:layout_marginTop="15dp"
+
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnMensile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENSILE"
+        android:layout_below="@id/btnSettimanale"
+        android:layout_marginTop="15dp"
+
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnAnnuale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANNUALE"
+        android:layout_below="@id/btnMensile"
+        android:layout_marginTop="15dp"
+
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

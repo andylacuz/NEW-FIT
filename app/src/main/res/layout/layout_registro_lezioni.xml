@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Encabezado -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO ABBONAMENTI"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="16dp"
+        android:textColor="@color/yellow"
+        android:background="@color/purple_700"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/classListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

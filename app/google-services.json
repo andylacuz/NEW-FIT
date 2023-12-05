@@ -1,0 +1,32 @@
+{
+
+  "project_info": {
+    "project_number": "40486538317",
+    "firebase_url": "https://gimapp-f0f06-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gimapp-f0f06",
+    "storage_bucket": "gimapp-f0f06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40486538317:android:7688c9069cbf03d5d96004",
+        "android_client_info": {
+          "package_name": "com.newfit.tfg2023"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClpH5jHRTvUnKdODsWH1G-9ihQ2M1rHFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+
+}

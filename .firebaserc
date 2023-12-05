@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "gimapp": "gimapp-f0f06",
+    "default": "gimapp-f0f06"
+  },
+  "targets": {},
+  "etags": {}
+}

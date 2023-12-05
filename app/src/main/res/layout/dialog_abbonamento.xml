@@ -1,0 +1,22 @@
+<!-- dialog_abbonamento.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvAbbonamentoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:text="Incluye: [Descripción del abono]\nPrecio: [Precio]"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagare"/>
+
+</LinearLayout>

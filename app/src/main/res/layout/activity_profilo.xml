@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfiloActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="PROFILO"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="153dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/perfil" />
+
+    <Button
+        android:id="@+id/restoreDefaultButton"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:width="40dp"
+        android:height="40dp"
+        android:text="Cancella foto"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:text="Nome utente"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            />
+
+        <Button
+            android:id="@+id/editNameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edita il nome"
+            android:textSize="15dp"
+            android:layout_marginTop="50dp"
+
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="correo@ejemplo.com"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+
+/>
+
+
+
+
+    <Button
+        android:id="@+id/viewClassesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Abbonamenti"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"/>
+
+
+    <Button
+        android:id="@+id/deleteAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="Cancella account"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+
+</LinearLayout>

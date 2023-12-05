@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/yellow">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="NEW FIT"
+            android:textColor="@color/yellow"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/mlezioni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEZIONI"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:drawableLeft="@drawable/lezioni"
+            />
+        <Button
+            android:id="@+id/mabbon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABBONAMENTI"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:drawableLeft="@drawable/abbonamenti"
+            />
+
+
+        <Button
+            android:id="@+id/mprofilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFILO"
+            android:drawableLeft="@drawable/perfil"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="250dp"/>
+        <Button
+            android:id="@+id/mexit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="120dp"
+
+
+            android:drawableLeft="@drawable/exit"
+            />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

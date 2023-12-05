@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/yellow">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:passwordToggleEnabled="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"
+            android:text="LOGIN"
+            android:textColor="@color/purple_700"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="8dp"
+            android:text="Inserisci l'indirizzo e-mail e la password"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/dim"
+            android:layout_width="236dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Hai dimenticato la password?"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="bottom"
+      android:gravity="center_horizontal">
+      <Button
+          android:id="@+id/baccedi"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="ACCEDI"
+          android:layout_marginRight="25dp"
+          android:layout_marginLeft="25dp"
+          android:layout_marginBottom="100dp"
+          android:background="@color/purple_700"/>
+
+      <TextView
+          android:id="@+id/tv_go_to_register"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="150dp"
+          android:text="Non hai un account?"
+          android:textColor="@color/purple_700"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+  </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
